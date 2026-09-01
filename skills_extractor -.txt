@@ -1,0 +1,267 @@
+skills_extractor -
+
+if __name__ == "__main__":
+
+    sample_text = """
+    I am a Machine Learning Engineer with
+    experience in Python, SQL, ML, NLP,
+    Generative AI and Natural Language Processing.
+
+    I have worked with Scikit-learn, TensorFlow,
+    Docker, K8s, AWS, CI/CD and MLOps.
+
+    My development experience includes ReactJS,
+    NodeJS, REST APIs, PostgreSQL and GitHub.
+
+    I am also interested in RAG, LLMs,
+    HuggingFace, LangChain and Vector Databases.
+    """
+
+    extracted_skills = extract_skills(
+        sample_text
+    )
+
+    print(
+        "\n========== EXTRACTED SKILLS ==========\n"
+    )
+
+    for item in extracted_skills:
+
+        print(
+            f"- {item['skill']} "
+            f"({item['category']})"
+        )
+
+        print(
+            f"  Matched as: "
+            f"{item['matched_alias']}"
+        )
+
+    print(
+        "\n========== CANONICAL SKILL NAMES ==========\n"
+    )
+
+    canonical_skills = get_skill_names(
+        extracted_skills
+    )
+
+    print(
+        ", ".join(canonical_skills)
+    )
+
+
+similarity -
+
+if __name__ == "__main__":
+
+    resume_text = """
+    Aspiring Data Scientist skilled in Python,
+    SQL, Pandas, NumPy, Machine Learning,
+    NLP and Scikit-learn.
+
+    Experienced in data cleaning,
+    feature engineering and data visualization.
+    """
+
+    job_text = """
+    We are hiring a Machine Learning Engineer
+    with strong Python and SQL skills.
+
+    The candidate should have experience in
+    Machine Learning, NLP, TensorFlow,
+    feature engineering and Docker.
+    """
+
+    skill_results = calculate_skill_match(
+        resume_text,
+        job_text
+    )
+
+    semantic_score = calculate_semantic_similarity(
+        resume_text,
+        job_text
+    )
+
+    print(
+        "\n========== SKILL MATCH ==========\n"
+    )
+
+    print(
+        "Skill Match Score: "
+        f"{skill_results['match_percentage']}%"
+    )
+
+    print(
+        "\n========== SEMANTIC SIMILARITY ==========\n"
+    )
+
+    print(
+        f"Semantic Similarity Score: "
+        f"{semantic_score}%"
+    )
+
+    print("\nMatching Skills:")
+
+    for skill in skill_results[
+        "matching_skills"
+    ]:
+        print(f"✓ {skill}")
+
+    print("\nMissing Skills:")
+
+    for skill in skill_results[
+        "missing_skills"
+    ]:
+        print(f"✗ {skill}")
+
+model -
+
+if __name__ == "__main__":
+
+    resume_text = """
+    Data Scientist skilled in Python, SQL,
+    Pandas, NumPy, Machine Learning, NLP,
+    Scikit-learn and data visualization.
+    """
+
+    job_text = """
+    Looking for a Machine Learning Engineer
+    skilled in Python, SQL, Machine Learning,
+    NLP, TensorFlow, Docker and FastAPI.
+    """
+
+    results = calculate_advanced_match_score(
+        resume_text,
+        job_text
+    )
+
+    print(
+        "\n========== ADVANCED MATCH RESULTS =========="
+    )
+
+    print(
+        f"\nExact Skill Match: "
+        f"{results['skill_score']}%"
+    )
+
+    print(
+        f"TF-IDF Similarity: "
+        f"{results['tfidf_score']}%"
+    )
+
+    print(
+        f"Semantic Similarity: "
+        f"{results['semantic_score']}%"
+    )
+
+    print(
+        f"\nFINAL AI MATCH SCORE: "
+        f"{results['final_score']}%"
+    )
+
+    print(
+        "\n---------- MATCHING SKILLS ----------"
+    )
+
+    for skill in results["matching_skills"]:
+        print(f"✓ {skill}")
+
+    print(
+        "\n---------- MISSING SKILLS ----------"
+    )
+
+    for skill in results["missing_skills"]:
+        print(f"✗ {skill}")
+
+llm -
+if __name__ == "__main__":
+
+    resume_text = """
+    Data Scientist with experience in Python, SQL,
+    Pandas, NumPy, Machine Learning, Scikit-learn,
+    Natural Language Processing and data visualization.
+
+    Built machine learning projects involving data
+    preprocessing, feature engineering, model training,
+    evaluation and text analysis.
+
+    Familiar with Git, GitHub and Power BI.
+    """
+
+    job_text = """
+    We are hiring a Machine Learning Engineer with
+    strong experience in Python, Machine Learning,
+    TensorFlow, Docker, Kubernetes, MLOps and NLP.
+
+    The candidate should understand model deployment,
+    containerization, machine learning pipelines and
+    production ML systems.
+    """
+
+    output = generate_ai_analysis(
+        resume_text=resume_text,
+        job_text=job_text
+    )
+
+    results = output["results"]
+
+    print(
+        "\n========== AUTOMATED AI MATCH RESULTS ==========\n"
+    )
+
+    print(
+        f"Exact Skill Match: "
+        f"{results.get('skill_score', 0)}%"
+    )
+
+    print(
+        f"TF-IDF Similarity: "
+        f"{results.get('tfidf_score', 0)}%"
+    )
+
+    print(
+        f"Semantic Similarity: "
+        f"{results.get('semantic_score', 0)}%"
+    )
+
+    print(
+        f"\nFINAL AI MATCH SCORE: "
+        f"{results.get('final_score', 0)}%"
+    )
+
+    print(
+        "\n========== MATCHING SKILLS ==========\n"
+    )
+
+    for skill in results.get(
+        "matching_skills",
+        []
+    ):
+        print(f"✓ {skill}")
+
+    print(
+        "\n========== MISSING SKILLS ==========\n"
+    )
+
+    for skill in results.get(
+        "missing_skills",
+        []
+    ):
+        print(f"✗ {skill}")
+
+    print(
+        "\n========== RAG RETRIEVED KNOWLEDGE ==========\n"
+    )
+
+    print(
+        output["rag_context"]
+    )
+
+    print(
+        "\n========== GENERATIVE AI ANALYSIS ==========\n"
+    )
+
+    print(
+        output["ai_analysis"]
+    )
+

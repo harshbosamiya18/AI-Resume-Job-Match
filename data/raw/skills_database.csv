@@ -1,0 +1,264 @@
+skill,category,aliases
+Python,Programming,Python
+R,Programming,R
+Java,Programming,Java
+JavaScript,Programming,JavaScript;JS
+TypeScript,Programming,TypeScript;TS
+C,Programming,C
+C++,Programming,C++;CPP;C Plus Plus
+C#,Programming,C#;C Sharp
+Go,Programming,Go;Golang
+Rust,Programming,Rust
+PHP,Programming,PHP
+Ruby,Programming,Ruby
+Kotlin,Programming,Kotlin
+Swift,Programming,Swift
+Scala,Programming,Scala
+MATLAB,Programming,MATLAB
+Perl,Programming,Perl
+Shell Scripting,Programming,Shell Scripting;Shell Script;Bash Scripting
+Bash,Programming,Bash
+PowerShell,Programming,PowerShell
+Dart,Programming,Dart
+SQL,Database,SQL;Structured Query Language
+NoSQL,Database,NoSQL;Non Relational Database;Non-Relational Database
+MySQL,Database,MySQL
+PostgreSQL,Database,PostgreSQL;Postgres
+SQLite,Database,SQLite
+Microsoft SQL Server,Database,SQL Server;MSSQL;Microsoft SQL Server
+Oracle Database,Database,Oracle;Oracle Database
+MongoDB,Database,MongoDB;Mongo
+Redis,Database,Redis
+Cassandra,Database,Apache Cassandra;Cassandra
+Elasticsearch,Database,Elasticsearch;ElasticSearch
+Firebase,Database,Firebase;Firestore
+MariaDB,Database,MariaDB
+DynamoDB,Database,DynamoDB;Amazon DynamoDB
+Neo4j,Database,Neo4j
+Snowflake,Database,Snowflake
+BigQuery,Database,BigQuery;Google BigQuery
+Data Warehousing,Data Engineering,Data Warehouse;Data Warehousing
+ETL,Data Engineering,ETL;Extract Transform Load
+ELT,Data Engineering,ELT;Extract Load Transform
+Data Pipeline,Data Engineering,Data Pipeline;Data Pipelines
+Apache Spark,Data Engineering,Spark;Apache Spark;PySpark
+PySpark,Data Engineering,PySpark;Spark Python
+Apache Hadoop,Data Engineering,Hadoop;Apache Hadoop
+Apache Kafka,Data Engineering,Kafka;Apache Kafka
+Apache Airflow,Data Engineering,Airflow;Apache Airflow
+dbt,Data Engineering,dbt;Data Build Tool
+Databricks,Data Engineering,Databricks
+Data Modeling,Data Engineering,Data Modeling
+Data Lake,Data Engineering,Data Lake
+Data Lakehouse,Data Engineering,Lakehouse;Data Lakehouse
+Data Governance,Data Engineering,Data Governance
+Data Quality,Data Engineering,Data Quality
+Data Cleaning,Data Science,Data Cleaning;Data Cleansing
+Data Analysis,Data Science,Data Analysis;Data Analytics
+Exploratory Data Analysis,Data Science,EDA;Exploratory Data Analysis
+Feature Engineering,Data Science,Feature Engineering
+Feature Selection,Data Science,Feature Selection
+Feature Extraction,Data Science,Feature Extraction
+Data Visualization,Data Science,Data Visualization;Data Visualisation;Data Viz
+Statistical Analysis,Data Science,Statistical Analysis
+Hypothesis Testing,Data Science,Hypothesis Testing
+A/B Testing,Data Science,A B Testing;A/B Test;AB Testing
+Probability,Data Science,Probability
+Statistics,Data Science,Statistics
+Regression Analysis,Data Science,Regression Analysis
+Time Series Analysis,Data Science,Time Series;Time Series Analysis
+Pandas,Data Science,Pandas
+NumPy,Data Science,NumPy
+SciPy,Data Science,SciPy
+Matplotlib,Data Visualization,Matplotlib
+Plotly,Data Visualization,Plotly
+Seaborn,Data Visualization,Seaborn
+Jupyter Notebook,Data Science,Jupyter;Jupyter Notebook;JupyterLab
+Microsoft Excel,Data Analysis,Excel;Microsoft Excel;MS Excel
+Power BI,Data Visualization,Power BI;PowerBI
+Tableau,Data Visualization,Tableau
+Looker,Data Visualization,Looker
+Qlik,Data Visualization,Qlik;QlikView;Qlik Sense
+Business Intelligence,Business Intelligence,BI;Business Intelligence
+DAX,Business Intelligence,DAX;Data Analysis Expressions
+Machine Learning,Machine Learning,ML;Machine Learning
+Supervised Learning,Machine Learning,Supervised Learning
+Unsupervised Learning,Machine Learning,Unsupervised Learning
+Reinforcement Learning,Artificial Intelligence,RL;Reinforcement Learning
+Deep Learning,Deep Learning,DL;Deep Learning
+Artificial Intelligence,Artificial Intelligence,AI;Artificial Intelligence
+Scikit-learn,Machine Learning,Scikit-learn;Scikit Learn;Sklearn
+TensorFlow,Deep Learning,TensorFlow
+Keras,Deep Learning,Keras;TensorFlow Keras
+PyTorch,Deep Learning,PyTorch;Torch
+XGBoost,Machine Learning,XGBoost
+LightGBM,Machine Learning,LightGBM
+CatBoost,Machine Learning,CatBoost
+Computer Vision,Artificial Intelligence,Computer Vision;CV
+Natural Language Processing,NLP,NLP;Natural Language Processing
+Natural Language Understanding,NLP,NLU;Natural Language Understanding
+Named Entity Recognition,NLP,NER;Named Entity Recognition
+Sentiment Analysis,NLP,Sentiment Analysis
+Text Classification,NLP,Text Classification
+Text Mining,NLP,Text Mining
+Speech Recognition,Artificial Intelligence,Speech Recognition;ASR
+Recommendation Systems,Machine Learning,Recommendation System;Recommender Systems;Recommendation Systems
+Anomaly Detection,Machine Learning,Anomaly Detection
+Model Evaluation,Machine Learning,Model Evaluation
+Model Deployment,MLOps,Model Deployment;ML Model Deployment
+Model Monitoring,MLOps,Model Monitoring
+MLOps,MLOps,MLOps
+MLflow,MLOps,MLflow
+DVC,MLOps,DVC;Data Version Control
+Kubeflow,MLOps,Kubeflow
+ONNX,MLOps,ONNX
+Experiment Tracking,MLOps,Experiment Tracking
+Model Versioning,MLOps,Model Versioning
+Generative AI,Generative AI,GenAI;Generative AI;Generative Artificial Intelligence
+Large Language Models,Generative AI,LLM;LLMs;Large Language Model;Large Language Models
+Retrieval Augmented Generation,Generative AI,RAG;Retrieval Augmented Generation
+Prompt Engineering,Generative AI,Prompt Engineering
+Prompt Design,Generative AI,Prompt Design
+Fine Tuning,Generative AI,Fine Tuning;Fine-Tuning;Model Fine Tuning
+Embeddings,Generative AI,Embedding;Embeddings;Vector Embeddings
+Vector Database,Generative AI,Vector Database;Vector Databases
+FAISS,Generative AI,FAISS
+ChromaDB,Generative AI,ChromaDB;Chroma
+Pinecone,Generative AI,Pinecone
+Weaviate,Generative AI,Weaviate
+LangChain,Generative AI,LangChain
+LlamaIndex,Generative AI,LlamaIndex;Llama Index
+Hugging Face,Generative AI,Hugging Face;HuggingFace
+Transformers,Generative AI,Transformer;Transformers
+OpenAI API,Generative AI,OpenAI API
+Gemini API,Generative AI,Gemini API;Google Gemini API
+AI Agents,Generative AI,AI Agent;AI Agents;Agentic AI
+Agentic AI,Generative AI,Agentic AI;AI Agents
+Amazon Web Services,Cloud Computing,AWS;Amazon Web Services
+Microsoft Azure,Cloud Computing,Azure;Microsoft Azure
+Google Cloud Platform,Cloud Computing,GCP;Google Cloud Platform;Google Cloud
+Cloud Computing,Cloud Computing,Cloud Computing;Cloud
+Serverless Computing,Cloud Computing,Serverless;Serverless Computing
+AWS Lambda,Cloud Computing,Lambda;AWS Lambda
+Amazon EC2,Cloud Computing,EC2;Amazon EC2
+Amazon S3,Cloud Computing,S3;Amazon S3
+Azure Functions,Cloud Computing,Azure Functions
+Google Cloud Functions,Cloud Computing,Google Cloud Functions
+Docker,DevOps,Docker
+Kubernetes,DevOps,Kubernetes;K8s
+Containerization,DevOps,Containerization;Containers
+CI/CD,DevOps,CI/CD;CI CD;Continuous Integration and Continuous Deployment
+Continuous Integration,DevOps,Continuous Integration
+Continuous Deployment,DevOps,Continuous Deployment
+Jenkins,DevOps,Jenkins
+GitHub Actions,DevOps,GitHub Actions
+GitLab CI/CD,DevOps,GitLab CI;GitLab CI/CD
+Terraform,DevOps,Terraform
+Ansible,DevOps,Ansible
+Infrastructure as Code,DevOps,IaC;Infrastructure as Code
+Nginx,DevOps,Nginx
+Apache HTTP Server,DevOps,Apache Server;Apache HTTP Server
+Linux,Operating Systems,Linux
+Windows,Operating Systems,Windows
+Unix,Operating Systems,Unix
+Git,Developer Tools,Git
+GitHub,Developer Tools,GitHub
+GitLab,Developer Tools,GitLab
+Bitbucket,Developer Tools,Bitbucket
+JIRA,Developer Tools,JIRA;Atlassian Jira
+Confluence,Developer Tools,Confluence
+Agile,Software Development,Agile;Agile Methodology
+Scrum,Software Development,Scrum
+Kanban,Software Development,Kanban
+Software Development Life Cycle,Software Development,SDLC;Software Development Life Cycle
+Object Oriented Programming,Programming,OOP;Object Oriented Programming;Object-Oriented Programming
+Functional Programming,Programming,Functional Programming
+Design Patterns,Software Development,Design Patterns
+SOLID Principles,Software Development,SOLID;SOLID Principles
+Unit Testing,Software Testing,Unit Testing
+Integration Testing,Software Testing,Integration Testing
+End to End Testing,Software Testing,E2E Testing;End-to-End Testing;End to End Testing
+Test Driven Development,Software Testing,TDD;Test Driven Development
+PyTest,Software Testing,pytest;PyTest
+Selenium,Software Testing,Selenium
+Postman,Developer Tools,Postman
+REST API,Web Development,REST API;REST APIs;REST
+GraphQL,Web Development,GraphQL
+SOAP,Web Development,SOAP
+API Development,Web Development,API Development
+Microservices,Software Architecture,Microservices;Microservice Architecture
+Monolithic Architecture,Software Architecture,Monolith;Monolithic Architecture
+Event Driven Architecture,Software Architecture,Event Driven Architecture
+System Design,Software Architecture,System Design
+Distributed Systems,Software Architecture,Distributed Systems
+Scalability,Software Architecture,Scalability
+Load Balancing,Software Architecture,Load Balancing
+Caching,Software Architecture,Caching
+Message Queues,Software Architecture,Message Queue;Message Queues
+RabbitMQ,Software Architecture,RabbitMQ
+Frontend Development,Web Development,Frontend;Front End;Frontend Development
+Backend Development,Web Development,Backend;Back End;Backend Development
+Full Stack Development,Web Development,Full Stack;Full-Stack Development;Full Stack Development
+HTML,Web Development,HTML
+CSS,Web Development,CSS
+SASS,Web Development,SASS;SCSS
+Bootstrap,Web Development,Bootstrap
+Tailwind CSS,Web Development,Tailwind;Tailwind CSS
+React,Web Development,React;React.js;ReactJS
+Angular,Web Development,Angular
+Vue.js,Web Development,Vue;Vue.js;VueJS
+Next.js,Web Development,Next.js;NextJS
+Node.js,Web Development,Node.js;NodeJS
+Express.js,Web Development,Express;Express.js;ExpressJS
+Django,Web Development,Django
+Flask,Web Development,Flask
+FastAPI,Web Development,FastAPI
+Spring Boot,Web Development,Spring Boot
+ASP.NET,Web Development,ASP.NET;DotNet; .NET
+Laravel,Web Development,Laravel
+Ruby on Rails,Web Development,Rails;Ruby on Rails
+Streamlit,Data Applications,Streamlit
+Gradio,Data Applications,Gradio
+Flutter,Mobile Development,Flutter
+React Native,Mobile Development,React Native
+Android Development,Mobile Development,Android;Android Development
+iOS Development,Mobile Development,iOS;iOS Development
+SwiftUI,Mobile Development,SwiftUI
+Cybersecurity,Cybersecurity,Cyber Security;Cybersecurity
+Network Security,Cybersecurity,Network Security
+Application Security,Cybersecurity,Application Security;AppSec
+Information Security,Cybersecurity,InfoSec;Information Security
+Penetration Testing,Cybersecurity,Pen Testing;Pentesting;Penetration Testing
+Ethical Hacking,Cybersecurity,Ethical Hacking
+OWASP,Cybersecurity,OWASP
+SIEM,Cybersecurity,SIEM;Security Information and Event Management
+Encryption,Cybersecurity,Encryption
+Cryptography,Cybersecurity,Cryptography
+Authentication,Cybersecurity,Authentication
+Authorization,Cybersecurity,Authorization
+OAuth,Cybersecurity,OAuth
+JWT,Cybersecurity,JWT;JSON Web Token
+Computer Networks,Networking,Computer Networks;Networking
+TCP/IP,Networking,TCP/IP
+HTTP,Networking,HTTP
+HTTPS,Networking,HTTPS
+DNS,Networking,DNS
+VPN,Networking,VPN
+Load Testing,Software Testing,Load Testing
+Apache JMeter,Software Testing,JMeter;Apache JMeter
+Unity,Game Development,Unity
+Unreal Engine,Game Development,Unreal Engine
+Game Development,Game Development,Game Development
+AR/VR,Emerging Technology,AR/VR;Augmented Reality;Virtual Reality
+Augmented Reality,Emerging Technology,AR;Augmented Reality
+Virtual Reality,Emerging Technology,VR;Virtual Reality
+Internet of Things,Emerging Technology,IoT;Internet of Things
+Blockchain,Emerging Technology,Blockchain
+Smart Contracts,Emerging Technology,Smart Contract;Smart Contracts
+Solidity,Emerging Technology,Solidity
+Quantum Computing,Emerging Technology,Quantum Computing
+Robotics,Emerging Technology,Robotics
+Apache Superset,Data Visualization,Superset;Apache Superset
+Google Analytics,Analytics,Google Analytics;GA4
+Google Analytics 4,Analytics,GA4;Google Analytics 4
+Search Engine Optimization,Digital Technology,SEO;Search Engine Optimization

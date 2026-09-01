@@ -1,0 +1,268 @@
+PYTHON
+
+Python is a versatile programming language widely used for software development, automation, data science, machine learning, artificial intelligence, backend development and scripting. Common libraries include Pandas, NumPy, Scikit-learn, TensorFlow, PyTorch, FastAPI and Streamlit.
+
+
+PROGRAMMING FUNDAMENTALS
+
+Programming fundamentals include variables, data types, control flow, functions, object-oriented programming, data structures, algorithms, debugging and error handling. Strong programming fundamentals are useful across software engineering, data science and IT roles.
+
+
+DATA STRUCTURES AND ALGORITHMS
+
+Data structures organize information efficiently and include arrays, lists, stacks, queues, hash tables, trees and graphs. Algorithms solve computational problems through searching, sorting, recursion, dynamic programming and optimization.
+
+
+DATABASES AND SQL
+
+SQL is used to query and manage relational databases. Important concepts include SELECT statements, joins, filtering, aggregation, subqueries, indexes, transactions, normalization and database design. Popular databases include MySQL, PostgreSQL, SQL Server and Oracle.
+
+
+NOSQL DATABASES
+
+NoSQL databases store data using models such as documents, key-value pairs, columns or graphs. Examples include MongoDB, Redis, Cassandra and Neo4j. They are commonly used when applications require flexible schemas or large-scale distributed data.
+
+
+DATA CLEANING
+
+Data cleaning involves handling missing values, duplicates, incorrect formats, outliers and inconsistent data. Clean and reliable data is important before analysis, visualization and machine learning.
+
+
+DATA ANALYSIS
+
+Data analysis involves collecting, cleaning, transforming and examining data to identify patterns, trends and useful insights. Common tools include Python, SQL, Excel, Pandas and visualization platforms.
+
+
+EXPLORATORY DATA ANALYSIS
+
+Exploratory Data Analysis, also called EDA, is used to understand datasets through statistical summaries, distributions, correlations and visualizations. EDA helps identify patterns, anomalies and potential data quality issues.
+
+
+DATA VISUALIZATION
+
+Data visualization communicates information through charts, graphs and dashboards. Tools such as Matplotlib, Plotly, Power BI, Tableau and Looker help transform data into understandable visual insights.
+
+
+STATISTICS AND HYPOTHESIS TESTING
+
+Statistics supports data-driven decision making through descriptive statistics, probability distributions, sampling, confidence intervals and hypothesis testing. A/B testing compares alternatives and helps evaluate whether observed differences are statistically meaningful.
+
+
+DATA ENGINEERING
+
+Data engineering focuses on building systems that collect, transform, store and deliver reliable data. Important technologies include ETL, ELT, SQL, Apache Spark, Kafka, Airflow, dbt, data warehouses and cloud platforms.
+
+
+DATA WAREHOUSING
+
+A data warehouse stores integrated historical data for analytics and reporting. Technologies such as Snowflake, BigQuery and cloud warehouse platforms support large-scale analytical workloads.
+
+
+MACHINE LEARNING
+
+Machine learning uses algorithms to learn patterns from data for tasks such as classification, regression, clustering, recommendation and anomaly detection. Common workflow stages include preprocessing, feature engineering, training, validation and evaluation.
+
+
+SUPERVISED AND UNSUPERVISED LEARNING
+
+Supervised learning uses labeled data for prediction tasks such as classification and regression. Unsupervised learning discovers patterns in unlabeled data through methods such as clustering and dimensionality reduction.
+
+
+SCIKIT-LEARN
+
+Scikit-learn is a Python library for traditional machine learning. It provides tools for preprocessing, feature engineering, classification, regression, clustering, model selection and evaluation.
+
+
+DEEP LEARNING
+
+Deep learning uses multi-layer neural networks to learn complex patterns from large datasets. Common applications include computer vision, natural language processing, speech recognition and generative AI.
+
+
+TENSORFLOW AND KERAS
+
+TensorFlow is a deep learning framework used to build, train and deploy neural networks. Keras provides a high-level interface for designing and training deep learning models.
+
+
+PYTORCH
+
+PyTorch is a machine learning framework widely used for deep learning research and production applications. It supports neural networks, automatic differentiation and GPU acceleration.
+
+
+NATURAL LANGUAGE PROCESSING
+
+Natural Language Processing, commonly abbreviated as NLP, enables computers to process and understand human language. Common tasks include text classification, sentiment analysis, named entity recognition, summarization and question answering.
+
+
+COMPUTER VISION
+
+Computer vision enables machines to analyze images and video. Common tasks include image classification, object detection, image segmentation and visual recognition.
+
+
+REINFORCEMENT LEARNING
+
+Reinforcement learning trains an agent to make decisions through interaction with an environment. The agent learns from rewards and penalties to improve a policy over time.
+
+
+GENERATIVE AI
+
+Generative AI creates new content such as text, images, code and audio. Modern Generative AI systems commonly use large language models, transformers, embeddings and retrieval systems.
+
+
+LARGE LANGUAGE MODELS
+
+Large Language Models, commonly called LLMs, are neural network models trained on large amounts of text. They can perform language generation, summarization, reasoning, question answering and other language tasks.
+
+
+PROMPT ENGINEERING
+
+Prompt engineering involves designing clear instructions and context for generative AI systems. Good prompts define the task, constraints, expected output format and relevant context.
+
+
+EMBEDDINGS
+
+Embeddings represent text, images or other data as numerical vectors. Similar items are placed closer together in vector space, making embeddings useful for semantic search, recommendations and retrieval.
+
+
+VECTOR DATABASES
+
+Vector databases store and search embedding vectors efficiently. They are commonly used in semantic search and Retrieval Augmented Generation systems. Examples include FAISS, ChromaDB, Pinecone and Weaviate.
+
+
+RETRIEVAL AUGMENTED GENERATION
+
+Retrieval Augmented Generation, commonly abbreviated as RAG, retrieves relevant information from a knowledge source and provides that context to a language model. A typical RAG workflow includes document preparation, chunking, embedding, retrieval and response generation.
+
+
+LANGCHAIN AND LLAMAINDEX
+
+LangChain and LlamaIndex are frameworks used to build applications involving language models, retrieval, tools, agents and external data sources.
+
+
+MLOPS
+
+MLOps applies software engineering and DevOps practices to machine learning systems. Important areas include experiment tracking, model versioning, reproducible pipelines, deployment, serving and monitoring.
+
+
+MODEL DEPLOYMENT
+
+Model deployment makes trained machine learning models available for predictions through APIs, batch systems or applications. Deployment often involves model serialization, backend services, containers and cloud infrastructure.
+
+
+MODEL MONITORING
+
+Model monitoring tracks model performance, data drift, prediction quality and reliability after deployment. Monitoring helps identify when a production model requires investigation, retraining or improvement.
+
+
+DOCKER
+
+Docker packages applications and their dependencies into containers. Containers help applications run consistently across development, testing and production environments.
+
+
+KUBERNETES
+
+Kubernetes, also called K8s, manages containerized applications at scale. It supports deployment, scaling, networking, availability and orchestration of container workloads.
+
+
+CI/CD
+
+Continuous Integration and Continuous Deployment, commonly abbreviated as CI/CD, automate software building, testing and delivery. Tools such as GitHub Actions, GitLab CI and Jenkins can implement automated pipelines.
+
+
+INFRASTRUCTURE AS CODE
+
+Infrastructure as Code, commonly called IaC, manages infrastructure through version-controlled configuration files. Terraform and similar tools help create reproducible cloud infrastructure.
+
+
+CLOUD COMPUTING
+
+Cloud computing provides computing resources such as servers, storage, databases and managed services over the internet. Major cloud platforms include Amazon Web Services, Microsoft Azure and Google Cloud Platform.
+
+
+AWS
+
+Amazon Web Services, commonly abbreviated as AWS, provides cloud computing services including compute, storage, databases, networking, serverless computing and machine learning infrastructure.
+
+
+AZURE
+
+Microsoft Azure is a cloud platform providing compute, storage, databases, networking, AI, analytics and managed application services.
+
+
+GOOGLE CLOUD PLATFORM
+
+Google Cloud Platform, commonly abbreviated as GCP, provides cloud infrastructure and managed services for computing, storage, data analytics, machine learning and application development.
+
+
+GIT AND VERSION CONTROL
+
+Git tracks changes in source code and supports collaborative software development. Platforms such as GitHub, GitLab and Bitbucket provide hosting, pull requests, issue tracking and collaboration workflows.
+
+
+AGILE AND SCRUM
+
+Agile development emphasizes iterative delivery, collaboration and adaptation to changing requirements. Scrum organizes work into sprints with roles, planning, reviews and retrospectives.
+
+
+SOFTWARE TESTING
+
+Software testing validates application behavior and reliability. Common levels include unit testing, integration testing, end-to-end testing and performance testing. Test-driven development uses tests to guide implementation.
+
+
+REST APIS
+
+REST APIs allow applications to communicate over HTTP using endpoints and standard request methods. APIs commonly exchange data using JSON and are used for backend services, microservices and model deployment.
+
+
+GRAPHQL
+
+GraphQL is an API query language that allows clients to request specific data. It can provide flexible access to related resources through a strongly defined schema.
+
+
+MICROSERVICES
+
+Microservices architecture divides an application into smaller independently deployable services. Services communicate through APIs or messaging systems and can be developed and scaled independently.
+
+
+SYSTEM DESIGN
+
+System design focuses on designing scalable and reliable software systems. Important topics include architecture, databases, caching, load balancing, distributed systems, queues, APIs and scalability.
+
+
+FRONTEND DEVELOPMENT
+
+Frontend development creates the user-facing part of web applications. Core technologies include HTML, CSS and JavaScript. Popular frameworks and libraries include React, Angular and Vue.
+
+
+BACKEND DEVELOPMENT
+
+Backend development implements server-side application logic, APIs, authentication and database access. Common technologies include Node.js, Django, Flask, FastAPI, Spring Boot and ASP.NET.
+
+
+FULL STACK DEVELOPMENT
+
+Full stack development combines frontend and backend development. Full stack developers work with user interfaces, application logic, APIs, databases and deployment workflows.
+
+
+CYBERSECURITY
+
+Cybersecurity protects systems, networks, applications and data from unauthorized access and attacks. Important areas include authentication, authorization, encryption, application security, network security and vulnerability management.
+
+
+APPLICATION SECURITY
+
+Application security focuses on protecting software from vulnerabilities through secure coding, testing, authentication, authorization and security reviews. OWASP provides widely used security guidance.
+
+
+NETWORKING
+
+Computer networking enables communication between systems. Important concepts include TCP/IP, HTTP, HTTPS, DNS, routing, VPNs and network security.
+
+
+MOBILE DEVELOPMENT
+
+Mobile development creates applications for mobile platforms. Android development commonly uses Kotlin or Java, while iOS development commonly uses Swift and SwiftUI. Cross-platform tools include Flutter and React Native.
+
+
+EMERGING TECHNOLOGIES
+
+Emerging technology areas include Internet of Things, blockchain, augmented reality, virtual reality, robotics and quantum computing. These technologies combine software, hardware and specialized platforms for new applications.
