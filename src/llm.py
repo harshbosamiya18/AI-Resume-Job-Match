@@ -1,6 +1,5 @@
 import os
 import streamlit as st
-from turtle import st
 
 from dotenv import load_dotenv
 from google import genai
