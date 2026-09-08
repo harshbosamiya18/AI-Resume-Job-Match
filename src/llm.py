@@ -88,7 +88,10 @@ def get_gemini_client():
             "GEMINI_API_KEY not found. "
             "Please check your .env file."
         )
-
+        
+    api_key = str(api_key).strip().strip("'").strip('"')
+    os.environ["GEMINI_API_KEY"] = api_key
+    
     return genai.Client(
         api_key=api_key
     )
