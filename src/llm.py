@@ -89,11 +89,9 @@ def get_gemini_client():
         )
         
     cleaned_key = str(api_key).strip().strip("'").strip('"')
-    return genai.Client(api_key=cleaned_key)
+    os.environ["GEMINI_API_KEY"] = cleaned_key
     
-    return genai.Client(
-        api_key=api_key
-    )
+    return genai.Client(api_key=cleaned_key)
 
 
 # ============================================================
