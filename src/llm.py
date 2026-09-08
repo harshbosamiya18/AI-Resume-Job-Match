@@ -74,23 +74,22 @@ def get_gemini_client():
             If GEMINI_API_KEY is not available.
     """
 
-    api_key = os.getenv("GEMINI_API_KEY")
-
+    api_key = None
+    
+    if hasattr(st, "secrets") and "GEMINI_API_KEY" in st.secrets:
+        api_key = st.secrets["GEMINI_API_KEY"]
+    
     if not api_key:
-        try:
-            api_key = st.secrets["GEMINI_API_KEY"]
-        except Exception:
-            pass
+        api_key = os.getenv("GEMINI_API_KEY")
         
     if not api_key:
-
         raise ValueError(
-            "GEMINI_API_KEY not found. "
-            "Please check your .env file."
+            "GEMINI_API_KEY is missing. "
+            "Please add GEMINI_API_KEY in Streamlit Cloud -> Settings -> Secrets."
         )
         
-    api_key = str(api_key).strip().strip("'").strip('"')
-    os.environ["GEMINI_API_KEY"] = api_key
+    cleaned_key = str(api_key).strip().strip("'").strip('"')
+    return genai.Client(api_key=cleaned_key)
     
     return genai.Client(
         api_key=api_key
