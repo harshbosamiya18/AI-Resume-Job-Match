@@ -3,7 +3,9 @@ pandas
 numpy
 scikit-learn
 spacy
-sentence-transformers
 pdfplumber
+sentence-transformers
+torch
+torchvision
 python-dotenv
 google-genai
