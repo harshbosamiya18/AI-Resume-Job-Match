@@ -9,3 +9,5 @@ torch
 torchvision
 python-dotenv
 google-genai
+add spacy en_core_web_sm model
+install spacy en_core_web_sm
